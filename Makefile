@@ -100,6 +100,3 @@ proto-dev: ## Compile protobuf types (for dev purposes only, makes lots of assum
 
 lsd: ## Print list of serial USB devices connected
 	pio device list
-
-gen-requirements:  ## Generates requirements.pip
-	poetry export > requirements.pip
